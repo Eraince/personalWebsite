@@ -1,9 +1,44 @@
-.chart rect {
-  fill: steelblue;
+.axis {
+	font: 15px sans-serif;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #D4D8DA;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+}
+.toolTip {
+  position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
+  background: none repeat scroll 0 0 #ffffff;
+  border: 1px solid #6F257F;
+  padding: 14px;
+  text-align: center;
+}
+svg{
+  background-color: white;
 }
 
-.chart text {
-  fill: white;
-  font: 10px sans-serif;
-  text-anchor: middle;
+.barLabel{
+  font-size: 35px;
+}
+
+.report-container {
+  display: grid;
+  width: 100%;
+  height: 450px;
+  grid-template: "a a a b b"; 
+}
+
+svg {
+  grid-area: b;
+}
+
+.#eport-title {
+  grid-template-areas: a;
+  font-family: 'Bree Serif';
+  text-align: center;
 }
