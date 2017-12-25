@@ -18,7 +18,7 @@ d3.json("report.json", function(error, data) {
     if (error) throw error;
 
     x.domain(data.map(function(d) { return d.pieces; }));
-    y.domain([0, d3.max(data, function(d) { return d.value; })]);
+    y.domain([0, 100]);
 
     g.append("g")
         .attr("class", "axis axis--x")
@@ -27,14 +27,15 @@ d3.json("report.json", function(error, data) {
 
     g.append("g")
         .attr("class", "axis axis--y")
-        .call(d3.axisLeft(y).ticks(5).tickFormat(function(d) { return parseInt(d / 1) + "%"; }).tickSizeInner([-width]))
+        .call(d3.axisLeft(y).ticks(4).tickFormat(function(d) { return parseInt(d / 1) ; }).tickSizeInner([-width]))
       .append("text")
         .attr("transform", "rotate(-90)")
         .attr("y", 6)
+        .attr("dx", 4)
         .attr("dy", "0.71em")
         .attr("text-anchor", "end")
-        .attr("fill", "#5D6971")
-        .text("Average House Price - (£)");
+        .attr("fill", "#E1694E")
+        .text("Wardobe Composition - (%)");
 
     g.selectAll(".bar")
         .data(data)
@@ -49,7 +50,7 @@ d3.json("report.json", function(error, data) {
               .style("left", d3.event.pageX - 50 + "px")
               .style("top", d3.event.pageY - 70 + "px")
               .style("display", "inline-block")
-              .html((d.pieces) + "<br>" + "£" + (d.value));
+              .html((d.pieces) + "<br>" + (d.value) + "%");
         })
             .on("mouseout", function(d){ tooltip.style("display", "none");});
 
