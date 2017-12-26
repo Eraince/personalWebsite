@@ -1,9 +1,9 @@
-html {
-	background-color: #F8F8F8;
-}
+
 
 body {
 	width: 100%;
+    background-image: url("../image/background.svg");
+    background-repeat: repeat;
 }
 
 /*nav-bar*/
