@@ -4,6 +4,18 @@ body {
 	width: 100%;
     background-image: url("../image/background.svg");
     background-repeat: repeat;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+#callout{
+    background-image: url("../image/callout.svg");
+    background-repeat: repeat;
+}
+
+#callout-container{
+    margin: 200px;
+    text-align: center;
+    background-color: rgba(248,248,248,0.8);
 }
 
 
@@ -12,7 +24,7 @@ body {
 	display: grid;
 	width: 100%;
 	height: 400px;
-	grid-template: "c b b b b b a";	
+	grid-template: "b b b b b a";	
 }
 
 .header-container div:nth-child(2){
@@ -20,8 +32,29 @@ body {
     margin: 20px;
 	background-image: url("../image/header_looping.gif");
   	background-repeat: no-repeat;
-  	background-size: 100%;
+  	background-size: 90%;
+}
+.header-container div:nth-child(1){
+    grid-area: a;
+    width: 30%;    
 }
 
 
 /*------------------------------------------------------------------------*/
+
+
+#picture {
+    display: grid;
+    width: 100%;
+    height: 400px;
+    grid-template: "a b";   
+}
+
+#picture div:nth-child(2){
+    grid-area: b;
+    margin: 20px;
+    width: 70%;
+}
+#picture div:nth-child(1){
+    grid-area: a;
+}

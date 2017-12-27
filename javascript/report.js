@@ -9,7 +9,7 @@ var x = d3.scaleBand().rangeRound([0, width]).padding(0.35),
     y = d3.scaleLinear().rangeRound([height, 0]);
   
 var colours = d3.scaleOrdinal()
-    .range(["#24C2CB", "#E1B753","#DA2536","#789F8A"]);
+    .range(["#fddc23", "#202020","#413721","#82202b"]);
 
 var g = svg.append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
