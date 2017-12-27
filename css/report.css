@@ -20,7 +20,7 @@
   text-align: center;
 }
 svg{
-  background-color: white;
+  background-color: none;
 }
 
 .barLabel{
@@ -28,7 +28,6 @@ svg{
 }
 
 .report-container {
-  /*background-color: #CECECE;*/
   display: grid;
   width: 100%;
   height: 350px;

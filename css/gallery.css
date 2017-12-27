@@ -36,7 +36,13 @@
 
 .all-in-one-left{
   padding-left: 50px;
-  font-size: 5em;
+  font-size: 6em;
+}
+
+.all-in-one-right{
+  display: inline;
+  padding-left: 230px;
+  font-size: 6em;
 }
 
 /* The Modal (background) */
@@ -44,7 +50,7 @@
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 100px;
+  padding-top: 50px;
   left: 0;
   top: 0;
   width: 100%;
@@ -56,12 +62,18 @@
 /* Modal Content */
 .modal-content {
   position: relative;
-  background-color: #fefefe;
+  background-color: black;
   margin: auto;
-  padding: 0;
-  width: 90%;
+  padding-bottom: 30px;
   max-width: 1200px;
 }
+.mySlides img{
+  height: 300px;
+  width: auto;
+  display: block;
+  margin: auto;
+}
+
 
 /* The Close Button */
 .close {
@@ -134,6 +146,7 @@
 
 img.demo {
   opacity: 0.6;
+  padding: 3px;
 }
 
 .active,
