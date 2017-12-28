@@ -57,7 +57,7 @@ h1 span{
 #picture {
     display: grid;
     width: 100%;
-    height: 700px;
+    height: 600px;
     grid-template: "a b";
     grid-template-columns: 400px 1fr;   
 }
@@ -73,5 +73,28 @@ h1 span{
 }
 
 #picture h1{
-    font-size: 7em;
+    font-size: 6em;
+    color: #fddc23;
+}
+
+/*------------------------------------------------------------------------*/
+
+#messup {
+    display: grid;
+    width: 100%;
+    height: 600px;
+    grid-template: "a b";
+    grid-template-columns:1fr 400px;   
+}
+
+#messup div:nth-child(2){
+    grid-area: b;
+}
+#messup img{
+    grid-area: a;
+}
+
+#messup h3{
+    font-size: 1em;
+    color: #fddc23;
 }
