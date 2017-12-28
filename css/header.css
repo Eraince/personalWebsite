@@ -69,4 +69,9 @@ h1 span{
 }
 #picture div:nth-child(1){
     grid-area: a;
+    text-align: center;
+}
+
+#picture h1{
+    font-size: 7em;
 }
