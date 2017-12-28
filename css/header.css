@@ -18,7 +18,7 @@ body {
 }
 
 #callout-container{
-    grid-area: b
+    grid-area: b;
     padding-top: 50px;
     align-self: center;
     text-align: center;
