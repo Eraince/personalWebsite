@@ -19,9 +19,6 @@
   padding: 14px;
   text-align: center;
 }
-svg{
-  background-color: none;
-}
 
 .barLabel{
   font-size: 35px;
@@ -30,17 +27,48 @@ svg{
 .report-container {
   display: grid;
   width: 100%;
-  height: 500px;
+  height: 600px;
   grid-template: "a b"; 
+  padding-top: 50px;
 }
 
 svg {
-  margin: 50px;
   grid-area: a;
+  margin: 50px;
+  background-color: none;
 }
 
-.#report-title {
-  grid-template-areas: b;
-  font-family: 'Bree Serif';
+#report-title {
+  grid-area: b;
+}
+
+#report-content {
+  display: grid;
+  width: 100%;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr;
+  margin: 5px;
   text-align: center;
 }
+
+.report-left {
+  font-size: 25px;
+  border-right-style: solid;
+  border-color: black;
+  padding: 5px;
+  color: white;
+}
+#wardrobe {
+  grid-area: a;
+  border-right-style: solid;
+  border-color: black;
+  text-align: center;
+}
+
+#me {
+  grid-area: b;
+  text-align: center;
+}
+
+
+
