@@ -14,7 +14,7 @@ body {
     width: 100%;
     height: 500px;
     grid-template: "a b c";   
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 200px 1fr 200px;
 }
 
 #callout-container{
@@ -35,10 +35,11 @@ body {
     grid-template-columns: 1fr 300px;
 }
 
-.header-container div:nth-child(2){
+.header-container img{
 	grid-area: b;
     padding: 10px;
     margin: 10px;
+    align-self: center;
 }
 .header-container div:nth-child(1){
     grid-area: a; 
