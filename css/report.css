@@ -58,17 +58,4 @@ svg {
   padding: 5px;
   color: white;
 }
-#wardrobe {
-  grid-area: a;
-  border-right-style: solid;
-  border-color: black;
-  text-align: center;
-}
-
-#me {
-  grid-area: b;
-  text-align: center;
-}
-
-
 
