@@ -30,8 +30,8 @@ svg{
 .report-container {
   display: grid;
   width: 100%;
-  height: 350px;
-  grid-template: "a b b b b"; 
+  height: 500px;
+  grid-template: "a b"; 
 }
 
 svg {
