@@ -44,7 +44,7 @@ svg {
 
 #report-content {
   display: grid;
-  width: 100%;
+  width: 95%;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
   grid-template-columns: 1fr 1fr;
   margin: 5px;
