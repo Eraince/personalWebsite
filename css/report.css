@@ -53,12 +53,13 @@ svg {
 
 .report-left {
   font-size: 25px;
-  border-right-style: solid;
-  border-color: black;
   padding: 5px;
   color: white;
 }
 span.personality {
-  background-color: black;
+  font-size: 20px;
+  border-style: dashed;
+  border-color: black;
+  border-width: 1px;
 }
 
