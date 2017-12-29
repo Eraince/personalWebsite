@@ -58,11 +58,7 @@ svg {
   padding: 5px;
   color: white;
 }
-
-.report-right {
-  font-size: 20px;
-  border-style: solid;
-  border-color: black;
-
+span.personality {
+  background-color: black;
 }
 
