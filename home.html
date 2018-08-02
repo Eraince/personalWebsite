@@ -1,82 +1,84 @@
 <!DOCTYPE html>
 <html>
-  <head>
-      <title>Eraince.com</title>
-      
-      
-      <link href="./lib/bootstrap.min.css" rel="stylesheet">
-      <link rel="stylesheet" href="css/header.css">
-      <link rel="stylesheet" href="css/report.css">
-      <link rel="stylesheet" href="css/gallery.css">
-      
-      <!-- Remove this line for offline development: -->
-      <link href="https://fonts.googleapis.com/css?family=Ubuntu:300" rel="stylesheet">
-      <script src="https://use.fontawesome.com/ba204bae73.js"></script>
-      
-  </head>
-  <body>  
-  		<div class="header-container">
-        <div>
-          <h1 style="font-size: 40px">Hi I'm Eraince!</h1>
-          <br>
-          <h3 style="font-size: 30px">This is a story about</h3>
-          <span style="background-color: #fddc23">#IAmWhatIWear</span>
-        </div>
-         <img src="../image/header_looping.gif" style="width: 100%" > 
-  		</div> 	
-<!-- report -->
-  	<div id="report">
-      <div style="float: right; width: 35%; margin-right: 15px">
-        <h2>Let me introduce myself using my wardrobe. </h2>
-        <h4 style="background-color: #fddc23; color: #f8f8f8;font-size: 25px">"Yup, engineer loves data."</h4>
-      </div>
-      
-      <div class="report-container">
-        <div id="report-title">
-          <div id="report-content">
-            
-              <span style="font-size: 25px">My wardrobe</span>
-              <span style="font-size: 25px">Me</span>
-              
-              <span class="report-left" style="background-color: #fddc23">Jeans+Sneakers</span>
-              
-              <span class="personality">Casual,sporty,active,cozy.</span>
-              
-              <span class="report-left" style="background-color: #202020">Figure Flattering Pieces</span>
-              
-              <span class="personality">Smart,confident,fit,detailed-oriented. </span>
-              
-              <span class="report-left" style="background-color: #413721">Eye-catching Print</span>
-              
-              <span class="personality">Challenging,bold,brave.</span>
-              
-              <span class="report-left" style="background-color: #82202b">Vintage Accesories</span>
-              
-              <span class="personality">Unique,eco-friendly,authentic.</span>
-            </h4> 
-          </div>
-        </div>
-        <svg width="500" height="400"></svg>
-      </div>
-  	</div>
 
-<!-- feature -->
-  	<div id="picture">
-      <div>
-        <h1>
-          <span>You</span>
-          <span>may</span>
-          <span>see</span>
-          <span>me</span>
-          <span>...</span>
-        </h1>
-      </div>
-      <img src="../image/feature.svg" style="width: 100%">
-  	</div>
-<!-- gallery -->
+<head>
+  <title>Eraince.com</title>
 
-<h1 style="font-size: 5em; text-align: center">The truth is I'm</h1>
-<br>
+
+  <link href="./lib/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/report.css">
+  <link rel="stylesheet" href="css/gallery.css">
+
+  <!-- Remove this line for offline development: -->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300" rel="stylesheet">
+  <script src="https://use.fontawesome.com/ba204bae73.js"></script>
+
+</head>
+
+<body>
+  <div class="header-container">
+    <div>
+      <h1 style="font-size: 40px">Hi I'm Eraince!</h1>
+      <br>
+      <h3 style="font-size: 30px">This is a story about</h3>
+      <span style="background-color: #fddc23">#IAmWhatIWear</span>
+    </div>
+    <img src="../image/header_looping.gif" width: 70%>
+  </div>
+  <!-- report -->
+  <div id="report">
+    <div style="float: right; width: 35%; margin-right: 15px">
+      <h2>Let me introduce myself using my wardrobe. </h2>
+      <h4 style="background-color: #fddc23; color: #f8f8f8;font-size: 25px">"Yup, engineer loves data."</h4>
+    </div>
+
+    <div class="report-container">
+      <div id="report-title">
+        <div id="report-content">
+
+          <span style="font-size: 25px">My wardrobe</span>
+          <span style="font-size: 25px">Me</span>
+
+          <span class="report-left" style="background-color: #fddc23">Jeans+Sneakers</span>
+
+          <span class="personality">Casual,sporty,active,cozy.</span>
+
+          <span class="report-left" style="background-color: #202020">Figure Flattering Pieces</span>
+
+          <span class="personality">Smart,confident,fit,detailed-oriented. </span>
+
+          <span class="report-left" style="background-color: #413721">Eye-catching Print</span>
+
+          <span class="personality">Challenging,bold,brave.</span>
+
+          <span class="report-left" style="background-color: #82202b">Vintage Accesories</span>
+
+          <span class="personality">Unique,eco-friendly,authentic.</span>
+          </h4>
+        </div>
+      </div>
+      <svg width="500" height="400"></svg>
+    </div>
+  </div>
+
+  <!-- feature -->
+  <div id="picture">
+    <div>
+      <h1>
+        <span>You</span>
+        <span>may</span>
+        <span>see</span>
+        <span>me</span>
+        <span>...</span>
+      </h1>
+    </div>
+    <img src="../image/feature.svg" style="width: 100%">
+  </div>
+  <!-- gallery -->
+
+  <h1 style="font-size: 5em; text-align: center">The truth is I'm</h1>
+  <br>
 
   <div id="gallery">
     <!-- Images used to open the lightbox -->
@@ -92,8 +94,8 @@
       </div>
       <div class="column">
         <img src="../image/img4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
-      </div> 
-      <div class="column all-in-one-left">ALL</div> 
+      </div>
+      <div class="column all-in-one-left">ALL</div>
       <br>
     </div>
     <div class="row">
@@ -109,19 +111,19 @@
       <div class="column">
         <img src="../image/img8.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
       </div>
-      <div class="column all-in-one-left">IN</div>   
+      <div class="column all-in-one-left">IN</div>
     </div>
     <div class="row">
-      <div class="all-in-one-right">ONE</div> 
+      <div class="all-in-one-right">ONE</div>
       <div class="column-right">
         <img src="../image/img9.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
       </div>
       <div class="column-right">
         <img src="../image/img10.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow">
       </div>
-       <div class="column-right">
+      <div class="column-right">
         <img src="../image/img11.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow">
-      </div>     
+      </div>
     </div>
 
     <!-- The Modal/Lightbox -->
@@ -131,7 +133,7 @@
 
         <div class="mySlides">
           <div class="numbertext">1 / 11</div>
-          <img src="../image/img1.jpg" >
+          <img src="../image/img1.jpg">
         </div>
 
         <div class="mySlides">
@@ -150,33 +152,33 @@
         </div>
         <div class="mySlides">
           <div class="numbertext">5 / 11</div>
-          <img src="../image/img5.jpg" >
+          <img src="../image/img5.jpg">
         </div>
         <div class="mySlides">
           <div class="numbertext">6 / 11</div>
-          <img src="../image/img6.jpg" >
+          <img src="../image/img6.jpg">
         </div>
         <div class="mySlides">
           <div class="numbertext">7 / 11</div>
-          <img src="../image/img7.jpg" >
+          <img src="../image/img7.jpg">
         </div>
         <div class="mySlides">
           <div class="numbertext">8 / 11</div>
-          <img src="../image/img8.jpg" >
+          <img src="../image/img8.jpg">
         </div>
         <div class="mySlides">
           <div class="numbertext">9 / 11</div>
-          <img src="../image/img9.jpg" >
+          <img src="../image/img9.jpg">
         </div>
         <div class="mySlides">
           <div class="numbertext">10 / 11</div>
-          <img src="../image/img10.jpg" >
+          <img src="../image/img10.jpg">
         </div>
         <div class="mySlides">
           <div class="numbertext">11 / 11</div>
-          <img src="../image/img11.jpg" >
+          <img src="../image/img11.jpg">
         </div>
-        
+
 
         <!-- Next/previous controls -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -186,84 +188,90 @@
 
 
         <!-- Thumbnail image controls -->
-        
-          <div class="column">
-            <img class="demo" src="../image/img1.jpg" onclick="currentSlide(1)">
-          </div>
 
-          <div class="column">
-            <img class="demo" src="../image/img2.jpg" onclick="currentSlide(2)">
-          </div>
+        <div class="column">
+          <img class="demo" src="../image/img1.jpg" onclick="currentSlide(1)">
+        </div>
 
-          <div class="column">
-            <img class="demo" src="../image/img3.jpg" onclick="currentSlide(3)">
-          </div>
+        <div class="column">
+          <img class="demo" src="../image/img2.jpg" onclick="currentSlide(2)">
+        </div>
 
-          <div class="column">
-            <img class="demo" src="../image/img4.jpg" onclick="currentSlide(4)">
-          </div>
-          <div class="column">
-            <img class="demo" src="../image/img5.jpg" onclick="currentSlide(5)">
-          </div>
-          <div class="column">
-            <img class="demo" src="../image/img6.jpg" onclick="currentSlide(6)">
-          </div>
-          <div class="column">
-            <img class="demo" src="../image/img7.jpg" onclick="currentSlide(7)">
-          </div>
-          <div class="column">
-            <img class="demo" src="../image/img8.jpg" onclick="currentSlide(8)">
-          </div>
-          <div class="column">
-            <img class="demo" src="../image/img9.jpg" onclick="currentSlide(9)">
-          </div>
-          <div class="column">
-            <img class="demo" src="../image/img10.jpg" onclick="currentSlide(10)">
-          </div>
-          <div class="column">
-            <img class="demo" src="../image/img11.jpg" onclick="currentSlide(11)">
-          </div>
+        <div class="column">
+          <img class="demo" src="../image/img3.jpg" onclick="currentSlide(3)">
+        </div>
+
+        <div class="column">
+          <img class="demo" src="../image/img4.jpg" onclick="currentSlide(4)">
+        </div>
+        <div class="column">
+          <img class="demo" src="../image/img5.jpg" onclick="currentSlide(5)">
+        </div>
+        <div class="column">
+          <img class="demo" src="../image/img6.jpg" onclick="currentSlide(6)">
+        </div>
+        <div class="column">
+          <img class="demo" src="../image/img7.jpg" onclick="currentSlide(7)">
+        </div>
+        <div class="column">
+          <img class="demo" src="../image/img8.jpg" onclick="currentSlide(8)">
+        </div>
+        <div class="column">
+          <img class="demo" src="../image/img9.jpg" onclick="currentSlide(9)">
+        </div>
+        <div class="column">
+          <img class="demo" src="../image/img10.jpg" onclick="currentSlide(10)">
+        </div>
+        <div class="column">
+          <img class="demo" src="../image/img11.jpg" onclick="currentSlide(11)">
+        </div>
       </div>
     </div>
   </div>
-<br>
-<br>
-<!-- messedUP -->
-<h1 style="text-align:right; font-size:4em">Always dressed fancy?</h1>
-<div id="messup">
-  <img src="../image/messup.svg" style="width:100%">
-  <div>
-    <h3>Have you ever experienced when everything gets messed up in your life and you just want to hide yourself as much as possible?</h3>
-    <br>
-    <h4>Been there.</h4>
-    <h3>Have you ever experienced when you walk into a place with overwhelming self-awareness because of uncomfortable outfit?</h3>
-    <br>
-    <h4>Been there.</h4>
+  <br>
+  <br>
+  <!-- messedUP -->
+  <h1 style="text-align:right; font-size:4em">Always dressed fancy?</h1>
+  <div id="messup">
+    <img src="../image/messup.svg" style="width:100%">
+    <div>
+      <h3>Have you ever experienced when everything gets messed up in your life and you just want to hide yourself as much as
+        possible?
+      </h3>
+      <br>
+      <h4>Been there.</h4>
+      <h3>Have you ever experienced when you walk into a place with overwhelming self-awareness because of uncomfortable outfit?</h3>
+      <br>
+      <h4>Been there.</h4>
+    </div>
   </div>
-</div>
 
 
-<!-- Callout -->
-<div id="callout">
-  <div id="callout-container" style="width: 100%">
-    <h1>"I believe that outfit is a way of communication that can help each person to know each other better
-      <span style="background-color: #82202b; color: #f8f8f8">#IAmWhatIWear</span> 
-    are you?"</h1>
-    <h2 style="text-align: right"><cite>-Eraince</cite></h2>
-    
+  <!-- Callout -->
+  <div id="callout">
+    <div id="callout-container" style="width: 100%">
+      <h1>"I believe that outfit is a way of communication that can help each person to know each other better
+        <span style="background-color: #82202b; color: #f8f8f8">#IAmWhatIWear</span>
+        are you?"</h1>
+      <h2 style="text-align: right">
+        <cite>-Eraince</cite>
+      </h2>
+
+    </div>
   </div>
-</div>
- <footer>
-  <div style="padding: 50px; text-align: center">
-    <p>Find me at:</p>
-    <span class="fa-stack fa-lg">
-      <a href="https://www.instagram.com/eraince/" target="blank" style="color: #202020"><i class="fa fa-instagram fa-stack-2x"></i></a>
-    </span>
-    <p>Copyright &copy; www.eraince.com</p>
-  </div>
-  
-</footer>
-    <!-- script -->
+  <footer>
+    <div style="padding: 50px; text-align: center">
+      <p>Find me at:</p>
+      <span class="fa-stack fa-lg">
+        <a href="https://www.instagram.com/eraince/" target="blank" style="color: #202020">
+          <i class="fa fa-instagram fa-stack-2x"></i>
+        </a>
+      </span>
+      <p>Copyright &copy; www.eraince.com</p>
+    </div>
+
+  </footer>
+  <!-- script -->
   <script src="./lib/jquery-2.2.3.min.js"></script>
   <!-- Bootstrap - latest compiled and minified JavaScript -->
   <script src="./lib/bootstrap.min.js"></script>
@@ -271,5 +279,6 @@
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <script src="javascript/report.js" charset="utf-8"></script>
   <script src="javascript/gallery.js" charset="utf-8"></script>
-  </body>
+</body>
+
 </html>
