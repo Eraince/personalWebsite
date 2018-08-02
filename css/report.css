@@ -1,5 +1,5 @@
 .axis {
-	font: 15px sans-serif;
+  font: 15px sans-serif;
 }
 .axis path,
 .axis line {
@@ -15,12 +15,12 @@
   height: auto;
   background: none repeat scroll 0 0 #ffffff;
   opacity: 0.8;
-  
+
   padding: 14px;
   text-align: center;
 }
 
-.barLabel{
+.barLabel {
   font-size: 35px;
 }
 
@@ -28,7 +28,7 @@
   display: grid;
   width: 100%;
   height: 600px;
-  grid-template: "a b"; 
+  grid-template: "a b";
   padding-top: 50px;
 }
 
@@ -40,12 +40,13 @@ svg {
 
 #report-title {
   grid-area: b;
+  align-self: center;
 }
 
 #report-content {
   display: grid;
   width: 95%;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   margin: 5px;
   text-align: center;
@@ -62,4 +63,3 @@ span.personality {
   border-color: black;
   border-width: 1px;
 }
-
