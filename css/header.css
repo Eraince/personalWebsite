@@ -41,6 +41,7 @@ h1 span {
   padding: 10px;
   margin: 10px;
   align-self: center;
+  width: 90%;
 }
 .header-container div:nth-child(1) {
   grid-area: a;
