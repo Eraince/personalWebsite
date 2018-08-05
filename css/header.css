@@ -109,7 +109,7 @@ footer {
 
 /* --------------------------------------------------- */
 #needy {
-  content: "⬂"
+  content: "!⬂";
   transition: padding 0.2s ease-in;
   padding-right: 2em;
   position: absolute;
