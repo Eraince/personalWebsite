@@ -1,6 +1,7 @@
 body {
   width: 100%;
-  background-image: url("../image/background.svg");
+  /* background-image: url("../image/background.svg"); */
+  background-color: #f8f8f8;
   background-repeat: repeat;
   font-family: "Arial Black", Gadget, sans-serif;
 }
