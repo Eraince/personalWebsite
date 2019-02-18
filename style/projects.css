@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+  background: white;
+  color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 15% 1fr 10%;
+  grid-template-areas:
+    "logo logo logo nav nav nav"
+    "pro1 pro1 pro2 pro2 pro3 pro3"
+    ". . . . footer .";
+}
+
+html {
+  min-height: 100%;
+  margin: 0;
+}
+.dib {
+  display: inline-block;
+}
+
+#logo {
+  grid-area: logo;
+  width: 60%;
+  padding-left: 30%;
+  justify-self: end;
+  padding-top: 10%;
+  align-self: end;
+}
+
+#logo img {
+  width: 100%;
+}
+
+#nav {
+  width: 100%;
+  grid-area: nav;
+  justify-self: center;
+  align-self: center;
+}
+
+#nav ul li a {
+  color: #555555;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+#nav ul li {
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-left: 8%;
+  font-size: 2em;
+}
+
+.color-grey {
+  color: #555555;
+}
+
+footer {
+  justify-self: center;
+  grid-area: footer;
+}

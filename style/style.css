@@ -1,0 +1,93 @@
+.container {
+  width: 90%;
+  margin: 3%;
+  display: inline-block;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background: white;
+  color: black;
+}
+
+#game {
+  width: 60%;
+  display: inline-block;
+}
+
+.instruction {
+  width: 35%;
+  display: inline-block;
+}
+
+.instruction h2 {
+  position: relative;
+  top: 3%;
+}
+
+.result {
+  /* margin: 5%; */
+}
+.table {
+  text-align: right;
+  display: inline-block;
+  width: 60%;
+  height: 100%;
+  /* margin: 3%; */
+}
+#red-square {
+  display: inline-block;
+  /* margin: 5%; */
+  padding-bottom: 10%;
+  width: 15%;
+  height: 30%;
+  background: red;
+  color: red;
+}
+
+#green-square {
+  display: inline-block;
+  margin: 0;
+  padding-bottom: 10%;
+  width: 15%;
+  height: 30%;
+  background: rgb(0, 255, 0);
+  color: rgb(0, 255, 0);
+}
+
+#blue-square {
+  display: inline-block;
+  /* margin: 5%; */
+  padding-bottom: 10%;
+  width: 15%;
+  height: 30%;
+  background: rgb(0, 0, 255);
+  color: rgb(0, 0, 255);
+}
+
+.data-square {
+  padding: 10%;
+  width: 40%;
+  height: 30%;
+  background: black;
+  display: inline-block;
+  /* color: black; */
+}
+
+.data-row {
+  width: 100%;
+  align-content: center;
+}
+
+#square {
+  padding-bottom: 10%;
+  width: 15%;
+  height: 30%;
+  background: red;
+  color: red;
+}
+
+.grid {
+  width: 20%;
+  height: 100%;
+  display: inline-block;
+}
