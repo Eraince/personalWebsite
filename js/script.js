@@ -40,12 +40,15 @@ var isDragging;
 var clickOffsetX;
 var clickOffsetY;
 
-function preload() {}
+function preload() {
+  // font = loadFont("resources/JosefinSans-Light.ttf");
+}
 
 function setup() {
   placeImages();
 
   isDragging = false;
+  textFont("Josefin Sans");
 
   var canvas = createCanvas((windowWidth / 3) * 2, windowHeight / 2);
   canvas.parent("game");
@@ -69,15 +72,11 @@ function placeImages() {
 
 function draw() {
   clear();
-  textSize(20);
-  fill(255, 255, 255);
-  text("Favorite", 40, 40);
 
+  fill(0);
   textSize(20);
-  fill(255, 255, 255);
-  text("Least Favorite", width - 250, 40);
-  line(0, 100, 300, 40);
-  stroke(255, 0, 0);
+  text("Favorite", 70, 40);
+  text("Least Favorite", width - 400, 40);
   rects.forEach(r => r.draw());
 }
 

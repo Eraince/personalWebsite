@@ -1,32 +1,26 @@
-.container {
-  width: 90%;
-  margin: 3%;
-  display: inline-block;
-}
 body {
-  font-family: "Josefin Sans", sans-serif;
-  background: white;
-  color: black;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 15% 1fr 1fr 10%;
+  grid-template-areas:
+    "logo logo logo nav nav nav"
+    "brief brief brief brief brief brief"
+    "para1 para1 game game game game"
+    ". . . . footer .";
 }
 
 #game {
-  width: 60%;
-  display: inline-block;
+  grid-area: game;
 }
 
 .instruction {
-  width: 35%;
-  display: inline-block;
+  grid-area: para1;
+  align-self: center;
+  justify-self: center;
+  font-size: 1.2em;
 }
 
-.instruction h2 {
-  position: relative;
-  top: 3%;
-}
+/* ------------------------------------------- */
 
-.result {
-  /* margin: 5%; */
-}
 .table {
   text-align: right;
   display: inline-block;
@@ -84,10 +78,4 @@ body {
   height: 30%;
   background: red;
   color: red;
-}
-
-.grid {
-  width: 20%;
-  height: 100%;
-  display: inline-block;
 }
