@@ -1,10 +1,13 @@
 body {
+  min-height: 200vh;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 15% 1fr 1fr 10%;
+  grid-template-rows: 7% 15% 1fr 15% 1fr 7%;
   grid-template-areas:
     "logo logo logo nav nav nav"
     "brief brief brief brief brief brief"
     "para1 para1 game game game game"
+    "data data data data data data"
+    "video video video video video video"
     ". . . . footer .";
 }
 
@@ -12,23 +15,39 @@ body {
   grid-area: game;
 }
 
+footer {
+  grid-area: footer;
+}
+
 .instruction {
+  padding-top: 20%;
   grid-area: para1;
-  align-self: center;
+  align-self: start;
   justify-self: center;
   font-size: 1.2em;
 }
 
+#video {
+  display: flex;
+  grid-area: video;
+  align-items: center;
+  justify-content: center;
+}
+
 /* ------------------------------------------- */
 
+.result {
+  grid-area: data;
+}
 .table {
-  text-align: right;
-  display: inline-block;
-  width: 60%;
-  height: 100%;
-  /* margin: 3%; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #red-square {
+  justify-self: center;
+  align-self: center;
   display: inline-block;
   /* margin: 5%; */
   padding-bottom: 10%;
@@ -58,24 +77,13 @@ body {
   color: rgb(0, 0, 255);
 }
 
-.data-square {
-  padding: 10%;
-  width: 40%;
-  height: 30%;
-  background: black;
-  display: inline-block;
-  /* color: black; */
-}
-
 .data-row {
-  width: 100%;
-  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
 }
 
-#square {
-  padding-bottom: 10%;
-  width: 15%;
-  height: 30%;
-  background: red;
-  color: red;
+.data-square {
+  padding-right: 3%;
 }

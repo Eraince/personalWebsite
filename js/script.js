@@ -124,16 +124,16 @@ function keyPressed() {
   devCal();
   // console.log(redDev);
   $("#red-data").html(
-    "<p style='font-size:1.5em'>" + floor(redDev) + " deviated from</p> "
+    "<p style='font-size:1.5em'>" + floor(redDev) + " deviated from   </p> "
   );
   $("#green-data").html(
-    "<p style='font-size:1.5em'>" + floor(greenDev) + " deviated from</p> "
+    "<p style='font-size:1.5em'>" + floor(greenDev) + " deviated from   </p> "
   );
   $("#blue-data").html(
-    "<p style='font-size:1.5em'>" + floor(blueDev) + " deviated from</p> "
+    "<p style='font-size:1.5em'>" + floor(blueDev) + " deviated from   </p> "
   );
 }
-
+ß;
 function updateOrder() {
   rects.sort(function(a, b) {
     return a.x - b.x;

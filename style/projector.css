@@ -1,0 +1,12 @@
+body {
+  min-height: 200vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 7% 15% 1fr 15% 1fr 7%;
+  grid-template-areas:
+    "logo logo logo nav nav nav"
+    "brief brief brief brief brief brief"
+    "para1 para1 game game game game"
+    "data data data data data data"
+    "video video video video video video"
+    ". . . . footer .";
+}

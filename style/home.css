@@ -21,10 +21,6 @@ body {
     ". . . . footer .";
 }
 
-html {
-  min-height: 100%;
-  margin: 0;
-}
 .dib {
   display: inline-block;
 }
@@ -76,4 +72,11 @@ footer {
   justify-self: center;
   text-align: center;
   font-weight: 300;
+}
+
+.video {
+  display: flex;
+  grid-area: video;
+  align-items: center;
+  justify-content: center;
 }

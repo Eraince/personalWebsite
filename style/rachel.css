@@ -1,0 +1,43 @@
+body {
+  min-height: 200vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 7% 10% 10% 1fr 7% 1fr 1fr 7%;
+  grid-template-areas:
+    "logo logo logo nav nav nav"
+    "gif gif gif gif gif gif"
+    ". brief brief brief brief ."
+    "public public public public public public"
+    "para2 para2 para2 para2 para2 para2"
+    "video video video video video video"
+    "team team team team team team"
+    ". . . . footer .";
+}
+
+#public {
+  grid-area: public;
+}
+
+#gif {
+  grid-area: gif;
+  align-self: center;
+  justify-self: center;
+}
+
+#para2 {
+  grid-area: para2;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  font-weight: 300;
+}
+
+#final {
+  grid-area: video;
+}
+
+#team {
+  grid-area: team;
+  align-self: center;
+  align-items: center;
+  justify-self: center;
+}
