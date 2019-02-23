@@ -48,10 +48,10 @@ body {
 #nav ul li a {
   color: #555555;
   text-decoration: none;
-  transition: all 0.2s ease;
 }
 
 #nav ul li {
+  text-align: center;
   padding-right: 8%;
   padding-left: 8%;
   font-size: 1.8em;

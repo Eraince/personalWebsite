@@ -1,14 +1,14 @@
 body {
-  min-height: 400vh;
+  min-height: 350vh;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 3.8% 15% 1fr 20% 1fr 5% 3.5%;
+  grid-template-rows: 3.8% 15% 1fr 22% 1fr 5% 3.5%;
   grid-template-areas:
     "logo logo logo nav nav nav"
     "star star star brief brief brief"
     ". pro1 pro1 pro1 pro1 ."
     ". pro2 pro2 pro2 pro2 ."
     "pro3 pro3 pro3 pro4 pro4 pro4"
-    "team team team team team team"
+    ". end end end end ."
     ". . . . footer .";
 }
 
@@ -23,6 +23,13 @@ body {
   align-items: center;
   justify-content: center;
   padding: 2%;
+}
+
+#ending {
+  grid-area: end;
+  text-align: center;
+  justify-content: baseline;
+  color: #555555;
 }
 
 #project1 {
