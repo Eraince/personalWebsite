@@ -1,12 +1,56 @@
 body {
-  min-height: 200vh;
+  min-height: 400vh;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 7% 15% 1fr 15% 1fr 7%;
+  grid-template-rows: 3.5% 20% 10% 1fr 7% 1fr 1fr 3.5%;
   grid-template-areas:
     "logo logo logo nav nav nav"
-    "brief brief brief brief brief brief"
-    "para1 para1 game game game game"
-    "data data data data data data"
+    "star star star brief brief brief"
+    ". pro1 pro1 pro1 pro1 ."
+    "public public public public public public"
+    "para2 para2 para2 para2 para2 para2"
     "video video video video video video"
+    "team team team team team team"
     ". . . . footer .";
+}
+
+#star {
+  grid-area: star;
+  align-self: center;
+  justify-self: center;
+}
+
+.project {
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#project1 {
+  grid-area: pro1;
+}
+
+/* #para2 {
+  grid-area: para2;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  font-weight: 300;
+} */
+
+/* #team {
+  grid-area: team;
+  align-self: center;
+  align-items: center;
+  justify-self: center;
+} */
+
+.phrase {
+  font-weight: 300;
+}
+
+.para {
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  justify-self: center;
 }
