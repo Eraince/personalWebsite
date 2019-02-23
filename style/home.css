@@ -35,7 +35,7 @@ body {
 }
 
 #logo img {
-  width: 100%;
+  width: 85%;
 }
 
 #nav {
@@ -54,7 +54,7 @@ body {
 #nav ul li {
   padding-right: 8%;
   padding-left: 8%;
-  font-size: 2em;
+  font-size: 1.8em;
 }
 
 .color-grey {

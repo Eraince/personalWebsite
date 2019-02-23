@@ -1,7 +1,7 @@
 body {
-  min-height: 200vh;
+  min-height: 250vh;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 7% 10% 10% 1fr 7% 1fr 1fr 7%;
+  grid-template-rows: 6% 10% 15% 1fr 7% 1fr 1fr 5%;
   grid-template-areas:
     "logo logo logo nav nav nav"
     "gif gif gif gif gif gif"

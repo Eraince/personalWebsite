@@ -1,14 +1,13 @@
 body {
   min-height: 400vh;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 3.5% 20% 10% 1fr 7% 1fr 1fr 3.5%;
+  grid-template-rows: 3.8% 15% 1fr 20% 1fr 5% 3.5%;
   grid-template-areas:
     "logo logo logo nav nav nav"
     "star star star brief brief brief"
     ". pro1 pro1 pro1 pro1 ."
-    "public public public public public public"
-    "para2 para2 para2 para2 para2 para2"
-    "video video video video video video"
+    ". pro2 pro2 pro2 pro2 ."
+    "pro3 pro3 pro3 pro4 pro4 pro4"
     "team team team team team team"
     ". . . . footer .";
 }
@@ -23,29 +22,31 @@ body {
   align-content: center;
   align-items: center;
   justify-content: center;
+  padding: 2%;
 }
 
 #project1 {
   grid-area: pro1;
 }
 
-/* #para2 {
-  grid-area: para2;
-  align-self: center;
-  justify-self: center;
-  text-align: center;
-  font-weight: 300;
-} */
+#project2 {
+  grid-area: pro2;
+}
 
-/* #team {
-  grid-area: team;
-  align-self: center;
-  align-items: center;
-  justify-self: center;
-} */
+#project3 {
+  grid-area: pro3;
+}
+
+#project4 {
+  grid-area: pro4;
+}
 
 .phrase {
   font-weight: 300;
+}
+
+.title {
+  font-size: 1.5em;
 }
 
 .para {
@@ -53,4 +54,19 @@ body {
   align-items: center;
   text-align: center;
   justify-self: center;
+  padding: 2%;
+}
+
+.visual {
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  justify-self: center;
+  display: flex;
+}
+
+.pic-element {
+  padding: 2%;
+  width: 45%;
+  margin: auto;
 }
