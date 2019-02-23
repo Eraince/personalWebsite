@@ -27,15 +27,18 @@ body {
 
 #logo {
   grid-area: logo;
-  width: 60%;
+  width: 18%;
   padding-left: 20%;
-  justify-self: end;
-  padding-top: 10%;
-  align-self: end;
+  align-content: center;
 }
 
 #logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20%;
   width: 85%;
+  justify-self: baseline;
 }
 
 #nav {
@@ -54,7 +57,7 @@ body {
   text-align: center;
   padding-right: 8%;
   padding-left: 8%;
-  font-size: 1.8em;
+  font-size: 1.3em;
 }
 
 .color-grey {
@@ -79,4 +82,13 @@ footer {
   grid-area: video;
   align-items: center;
   justify-content: center;
+}
+
+@media only screen and (min-width: 1000px) {
+  #nav ul li {
+    text-align: center;
+    padding-right: 8%;
+    padding-left: 8%;
+    font-size: 1.8em;
+  }
 }
